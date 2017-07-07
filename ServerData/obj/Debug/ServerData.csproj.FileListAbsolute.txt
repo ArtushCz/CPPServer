@@ -1,0 +1,5 @@
+C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\bin\Debug\ServerData.dll
+C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\bin\Debug\ServerData.pdb
+C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\obj\Debug\ServerData.csprojResolveAssemblyReference.cache
+C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\obj\Debug\ServerData.dll
+C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\obj\Debug\ServerData.pdb
