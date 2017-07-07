@@ -3,3 +3,8 @@ C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\bin\Debug\ServerData.p
 C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\obj\Debug\ServerData.csprojResolveAssemblyReference.cache
 C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\obj\Debug\ServerData.dll
 C:\Users\renata\Desktop\Premek - CPP\CPPServer\ServerData\obj\Debug\ServerData.pdb
+D:\Projects\CPPServer\ServerData\bin\Debug\ServerData.dll
+D:\Projects\CPPServer\ServerData\bin\Debug\ServerData.pdb
+D:\Projects\CPPServer\ServerData\obj\Debug\ServerData.csprojResolveAssemblyReference.cache
+D:\Projects\CPPServer\ServerData\obj\Debug\ServerData.dll
+D:\Projects\CPPServer\ServerData\obj\Debug\ServerData.pdb

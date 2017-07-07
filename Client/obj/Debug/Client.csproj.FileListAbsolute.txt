@@ -6,3 +6,11 @@ C:\Users\renata\Desktop\Premek - CPP\CPPServer\Client\obj\Debug\Client.exe
 C:\Users\renata\Desktop\Premek - CPP\CPPServer\Client\obj\Debug\Client.pdb
 C:\Users\renata\Desktop\Premek - CPP\CPPServer\Client\bin\Debug\ServerData.dll
 C:\Users\renata\Desktop\Premek - CPP\CPPServer\Client\bin\Debug\ServerData.pdb
+D:\Projects\CPPServer\Client\bin\Debug\Client.exe.config
+D:\Projects\CPPServer\Client\bin\Debug\Client.exe
+D:\Projects\CPPServer\Client\bin\Debug\Client.pdb
+D:\Projects\CPPServer\Client\bin\Debug\ServerData.dll
+D:\Projects\CPPServer\Client\bin\Debug\ServerData.pdb
+D:\Projects\CPPServer\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\Projects\CPPServer\Client\obj\Debug\Client.exe
+D:\Projects\CPPServer\Client\obj\Debug\Client.pdb

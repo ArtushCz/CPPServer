@@ -50,22 +50,40 @@ namespace Server
 
             while (true)
             {
-                Buffer = new byte[clientSocket.SendBufferSize];
-
-                readBytes = clientSocket.Receive(Buffer);
-                
-                if(readBytes > 0)
+                try
                 {
-                    Packet packet = new Packet(Buffer);
-                    DataManager(packet);
+                    Buffer = new byte[clientSocket.SendBufferSize];
+
+                    readBytes = clientSocket.Receive(Buffer);
+
+                    if (readBytes > 0)
+                    {
+                        Packet packet = new Packet(Buffer);
+                        DataManager(packet);
+                    }
                 }
+                catch
+                {
+                    Console.WriteLine("Client Disconnected");
+                    
+                }
+                
             }
         }
 
         //data manager
         public static void DataManager(Packet p)
         {
-
+            switch (p.packetType)
+            {
+                case PacketType.Chat:
+                    Console.WriteLine(p.Gdata[0] + ": " + p.Gdata[1]);
+                    foreach(ClientData c in _clients)
+                    {
+                        c.clientSocket.Send(p.ToBytes());
+                    }
+                    break;
+            }
         }
 
     }
@@ -81,6 +99,7 @@ namespace Server
             id = Guid.NewGuid().ToString();
             clientThread = new Thread(Server.Data_IN);
             clientThread.Start(clientSocket);
+            SendRegistrationPacket();
         }
 
         public ClientData(Socket clientSocket)
@@ -89,6 +108,15 @@ namespace Server
             id = Guid.NewGuid().ToString();
             clientThread = new Thread(Server.Data_IN);
             clientThread.Start(clientSocket);
+            SendRegistrationPacket();
+        }
+
+        public void SendRegistrationPacket()
+        {
+            Packet p = new Packet(PacketType.Registration, "sever");
+            p.Gdata.Add(id);
+            clientSocket.Send(p.ToBytes());
+           
         }
     }
 }

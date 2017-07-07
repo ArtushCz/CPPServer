@@ -1,0 +1,12 @@
+D:\Projects\CPPServer\ChatWindow\bin\Debug\ChatWindow.exe.config
+D:\Projects\CPPServer\ChatWindow\bin\Debug\ChatWindow.exe
+D:\Projects\CPPServer\ChatWindow\bin\Debug\ChatWindow.pdb
+D:\Projects\CPPServer\ChatWindow\bin\Debug\ServerData.dll
+D:\Projects\CPPServer\ChatWindow\bin\Debug\ServerData.pdb
+D:\Projects\CPPServer\ChatWindow\obj\Debug\ChatWindow.csprojResolveAssemblyReference.cache
+D:\Projects\CPPServer\ChatWindow\obj\Debug\ChatWindow.chatForm.resources
+D:\Projects\CPPServer\ChatWindow\obj\Debug\ChatWindow.Properties.Resources.resources
+D:\Projects\CPPServer\ChatWindow\obj\Debug\ChatWindow.csproj.GenerateResource.Cache
+D:\Projects\CPPServer\ChatWindow\obj\Debug\ChatWindow.exe
+D:\Projects\CPPServer\ChatWindow\obj\Debug\ChatWindow.pdb
+D:\Projects\CPPServer\ChatWindow\obj\Debug\ChatWindow.loginForm.resources
